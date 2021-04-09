@@ -1,0 +1,119 @@
+.overview-container {
+  padding-top: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.overview-container article {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  background: hsl(227, 47%, 96%);
+  padding: 12px 18px;
+  width: 250px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background .2s ease;
+}
+
+.overview-container article:hover {
+  background: hsl(225, 14%, 83%);
+}
+
+.facebook-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.facebook-container img {
+  border-radius: 4px;
+}
+
+.facebook-container span {
+  font-size: 12px;
+  font-weight: bold;
+  color: hsl(228, 12%, 44%);
+}
+
+.twitter-container {
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.twitter-container img {
+  border-radius: 4px;
+}
+
+.twitter-container span {
+  font-size: 12px;
+  font-weight: bold;
+  color: hsl(228, 12%, 44%);
+}
+
+.instagram-container {
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instagram-container img {
+  border-radius: 4px;
+}
+
+.instagram-container span {
+  font-size: 12px;
+  font-weight: bold;
+  color: hsl(228, 12%, 44%);
+}
+
+.youtube-container {
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.youtube-container img {
+  border-radius: 4px;
+}
+
+.youtube-container span {
+  font-size: 12px;
+  font-weight: bold;
+  color: hsl(228, 12%, 44%);
+}
+
+.info-container {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.info-container h3 {
+  font-size: 1.8rem;
+}
+
+.info-container span {
+  display: flex;
+  align-items: center;
+}
+
+.info-container span img {
+  padding-right: .2rem;
+}
+
+.info-container span small {
+  font-weight: bold;
+  color: hsl(163, 72%, 41%);
+}
+
+.info-container span .red-color {
+  color: hsl(356, 69%, 56%);
+}

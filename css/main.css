@@ -1,0 +1,32 @@
+.main-page {
+  padding: .8rem 5rem;
+}
+
+.main-page header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-info h2 {
+  color: hsl(230, 17%, 14%);
+}
+
+.header-info span {
+  font-size: 14px;
+  font-weight: 600;
+  color: hsl(228, 12%, 44%)
+}
+
+.main-page header button {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.main-page h2 {
+  padding-top: 2.5rem;
+  color: hsl(228, 12%, 44%)
+}
