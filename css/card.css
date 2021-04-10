@@ -104,3 +104,9 @@
     flex-direction: column;
   }
 } 
+
+@media(min-width: 1280px) {
+  .social-media-container article {
+    width: 350px;
+  }
+}
